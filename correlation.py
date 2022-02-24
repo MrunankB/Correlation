@@ -28,8 +28,8 @@ mrk = []
 time = []
 
 for i in range(len(fileDat)):
-  marks = fileData[i][1]
-  tim = fileData[i][2]
+  marks = fileDat[i][1]
+  tim = fileDat[i][2]
   mrk.append(float(marks))
   time.append(float(tim))
 
